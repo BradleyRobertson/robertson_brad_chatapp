@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}body{font:13px Helvetica, Arial}form{background:black;padding:3px;position:fixed;bottom:0;width:100%}form input{border:0;padding:10px;width:90%;margin-right:0.5%}form button{width:9%;background:#8278ff;border:none;padding:10px}#messages{list-style-type:none;margin:0;padding:0;color:white}#messages li{padding:5px 10px;background:#000}#messages li:nth-child(odd){background:#423f3f}
+/*# sourceMappingURL=main.css.map */
