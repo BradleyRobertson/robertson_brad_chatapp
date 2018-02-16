@@ -3,7 +3,7 @@
 	margin: 0; padding: 0; box-sizing: border-box;
 }
 
-body { font: 13px Helvetica, Arial; }
+body { font: 18px Buda, Arial; background-color: grey; margin-top:15px; }
 
 form {
 	background: black;
@@ -12,14 +12,32 @@ form {
 	bottom: 0;
 	width: 100%;
 
-	input { border: 0; padding: 10px; width: 90%; margin-right: 0.5%; }
+	input { border: 0; padding: 10px; width: 90%; margin-right: 0.5%; background: #423f3f; color: white;}
 
-	button { width: 9%; background: rgb(130, 120,255); border: none; padding: 10px; }
+	button { width: 9%; background: #44c9ce; border: none; padding: 10px; }
+}
+
+.nickname{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	border-radius: 5px;
+	background: #423f3f;
+	border: 0;
+	color:white;
+}
+.nickname::placeholder{
+	color: #d8d8d8;
+}
+
+.message::placeholder{
+	color: #d8d8d8;
 }
 
 #messages {
 	list-style-type: none; margin: 0; padding: 0; color: white;
 
-	li { padding: 5px 10px;	background: #000; }
-	li:nth-child(odd) { background: #423f3f; }
+	li { padding-right: 45px; padding-top:8px; padding-bottom:8px; overflow:hidden;background: #000; margin-left:40px; margin-bottom: 5px;text-align: right; border-radius:15px; height: inherit;padding-left: 5px;}
+	li:nth-child(odd) {margin-left:0px; padding-left: 45px; background: #423f3f; margin-right:40px; text-align: left;}
+ }
 }
